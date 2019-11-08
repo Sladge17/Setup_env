@@ -8,8 +8,8 @@ cd ..
 rm -rf VSdebug_21
 
 echo .gitignore > .gitignore
-echo .git > .gitignore
-echo .vscode > .gitignore
+echo .git >> .gitignore
+echo .vscode >> .gitignore
 echo gitit.sh >> .gitignore
 echo *.o >> .gitignore
 echo *.a >> .gitignore
