@@ -14,3 +14,4 @@ then
     git init
     git remote add git_cloud $1
 fi
+rm -f setup.sh
