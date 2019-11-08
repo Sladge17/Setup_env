@@ -7,7 +7,7 @@ cp -r .vscode ./..
 cd ..
 rm -rf VSdebug_21
 
-echo .*> .gitignore
+echo .* > .gitignore
 echo gitit.sh >> .gitignore
 echo *.o >> .gitignore
 echo *.a >> .gitignore
