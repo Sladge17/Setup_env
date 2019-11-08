@@ -11,6 +11,7 @@ echo .gitignore > .gitignore
 echo .vscode >> .gitignore
 echo *.sh >> .gitignore
 echo *.o >> .gitignore
+echo *.a >> .gitignore
 echo a.out >> .gitignore
 echo a.out.dSYM >> .gitignore
 echo 00 >> .gitignore
