@@ -14,6 +14,7 @@ echo *.o >> .gitignore
 echo *.a >> .gitignore
 echo a.out >> .gitignore
 echo a.out.dSYM >> .gitignore
+echo .DS_Store >> .gitignore
 echo 00 >> .gitignore
 
 if [ $# == 1 ]
