@@ -7,17 +7,6 @@ cp -r .vscode ./..
 cd ..
 rm -rf VSdebug_21
 
-echo .git > .gitignore
-echo .vscode >> .gitignore
-echo gitit.sh >> .gitignore
-echo ./obj >> .gitignore
-echo *.o >> .gitignore
-echo *.a >> .gitignore
-echo a.out >> .gitignore
-echo a.out.dSYM >> .gitignore
-echo .DS_Store >> .gitignore
-echo 00 >> .gitignore
-
 mkdir src includes
 
 if [ $# == 1 ]
