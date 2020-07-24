@@ -10,7 +10,7 @@ rm -rf VSdebug_21
 echo .git > .gitignore
 echo .vscode >> .gitignore
 echo gitit.sh >> .gitignore
-echo ./obj >> gitignore
+echo ./obj >> .gitignore
 echo *.o >> .gitignore
 echo *.a >> .gitignore
 echo a.out >> .gitignore
