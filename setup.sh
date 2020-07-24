@@ -18,6 +18,8 @@ echo a.out.dSYM >> .gitignore
 echo .DS_Store >> .gitignore
 echo 00 >> .gitignore
 
+mkdir src includes
+
 if [ $# == 1 ]
 then
     git init
