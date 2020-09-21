@@ -4,7 +4,7 @@ HEADER_DIR = includes/
 HEADER = -I $(HEADER_DIR)
 
 SRC_DIR = src/
-SRC_LIST = 
+SRC_LIST =	main.c
 SRC = $(addprefix $(SRC_DIR), $(SRC_LIST))
 
 OBJ_DIR = obj/
