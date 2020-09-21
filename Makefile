@@ -1,4 +1,3 @@
-NAME = 
 FLAG = -Wall -Wextra -Werror
 
 HEADER_DIR = includes/
