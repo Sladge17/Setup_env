@@ -2,9 +2,7 @@
 
 if [ $# != 2 ]
 then
-    echo "Need two parameters:
-    1 - repository address
-    2 - project name"
+    echo "Need input repository address"
 else
     rm -rf .git
     git clone https://github.com/Sladge17/VSdebug_21.git
@@ -14,9 +12,9 @@ else
     rm -rf VSdebug_21
     git init
     git remote add git_cloud $1
-    mv ../Setup_env ../$2
-    mv includes/project.h includes/$2.h
-    mv src/project.c src/$2.c
+    NAME=$(echo $1 | awk -F / '{print $5}' | awk -F . '{print $1}')
+    mv ../Setup_env ../$NAME
     rm -f setup.sh
+    ./gitit.sh init commit
 fi
 
